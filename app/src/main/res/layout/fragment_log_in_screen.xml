@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LogInScreenFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content"
+        android:text="Mobile No." />
+
+    <EditText
+        android:id="@+id/mobileET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLength="10"
+        android:background="@drawable/et_background"
+        android:layout_margin="10dp"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/passET2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/et_background"
+        android:layout_margin="10dp"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_margin="10dp"
+        android:id="@+id/loginTv"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_margin="1dp"
+            android:text="Log in"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/registerNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:text="Don't Have an account Register Now" />
+
+
+</LinearLayout>
